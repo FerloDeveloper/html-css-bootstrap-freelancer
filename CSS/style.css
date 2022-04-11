@@ -1,0 +1,41 @@
+
+
+
+.banner-top {
+    background-color: rgb(34, 59, 51);
+    min-height: 60px;
+    align-items: center;
+}
+
+
+
+
+.container-custom-hero {
+    margin: auto;
+    max-width: 500px;
+}
+
+.container-custom-col {
+    margin: auto;
+    max-width: 900px;
+}
+
+.green {
+    background-color: green;
+    min-height: 300px;
+}
+
+.pink {
+    background-color: pink;
+}
+
+.white {
+    min-height: 500px;
+}
+
+.brown {
+    background-color: brown;
+    min-height: 50px;
+    
+
+}
