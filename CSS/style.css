@@ -2,7 +2,7 @@
     CONTAINERS
 -----------------------*/
 
-.wrapper-small {
+.container-piccolo {
     width: 60%;
     margin: auto;
 }
@@ -14,9 +14,11 @@
 .bg-primary-color {
     background-color: #19BC9C;
 }
+
 .bg-secondary-color {
     background-color: #2C3E4F;
 }
+
 .bg-tertiary-color {
     background-color: #3b536d;
 }
@@ -33,6 +35,12 @@ a {
     text-decoration: none;
     color: white;
 }
+
+/*----------------------
+    BUTTONS
+-----------------------*/
+
+
 
 /*----------------------
     HEADER
@@ -65,6 +73,29 @@ header {
 
 .about {
     color: #fff;
+}
+
+.img-hero {
+    height: 250px;
+}
+
+.stellina {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fa-star {
+    font-size: 24px;
+}
+
+.decorazione-stellina {
+    background-color: #fff;
+    width: 15%;
+    height: 4px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    margin: 0 10px;
 }
 
 /*----------------------
