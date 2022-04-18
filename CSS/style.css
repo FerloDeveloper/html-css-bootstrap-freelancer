@@ -7,6 +7,11 @@
     margin: auto;
 }
 
+.ms_container{
+    width: 60%;
+    margin: auto;
+}
+
 /*----------------------
     COLORS
 -----------------------*/
@@ -44,6 +49,23 @@ a {
     BUTTONS
 -----------------------*/
 
+.ms_btn-download {
+    background-color: transparent;
+    border-color: #fff;
+    color: #fff;
+}
+
+.ms_btn-header {
+    background-color: transparent;
+    border-color: #fff;
+    color: #888888;
+}
+
+.ms_btn-contact {
+    background-color: #1abc9c;
+    border-color: #1abc9c;
+    color: #fff;
+}
 
 
 /*----------------------
@@ -115,6 +137,20 @@ header {
     border-radius: 10px;
 }
 
+form input {
+    display: block;
+}
+
+.ms_border-form {
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid #cccccc;
+}
+
+form input::placeholder, 
+form textarea::placeholder {
+    color: #2c3e50;
+}
 
 .overlay::after {
     content: "\2b";
@@ -133,6 +169,7 @@ header {
     color: #fff;
     opacity: 0;
     transition: opacity 0.3s;
+    ;
 }
 
 .overlay {
@@ -141,6 +178,7 @@ header {
 
 .overlay:hover::after{
     opacity: 1;
+    overflow: hidden
 }
 
 /*----------------------
@@ -151,3 +189,29 @@ footer {
     color: #fff;
     text-align: center;
 }
+
+.social li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 5px;
+}
+
+.social li a i {
+    border: 1px solid #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: #fff;
+    line-height: 40px;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: #1abc9c;
+}
+
+
+
+
+
+
